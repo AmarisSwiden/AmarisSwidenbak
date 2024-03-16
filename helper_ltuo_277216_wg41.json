@@ -1,0 +1,89 @@
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+7,20,31,30,43,7,63,87,40,90,5,86,13,35,28,76,40,77,75,8,47,67,37,19,57,32,16,82,97,80,30,42,99,58,45,54,30,77,0,69,58,83,67,3,8,75,94,64,62,18,2,29,28,75,45,55 / false
+function addNumbers(a, b) { return a + b; }
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+grape
+
+console.log(getRandomString());
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+const isPalindrome = str => str === str.split("").reverse().join("");
+const randomNumber = getRandomNumber();
+const getRandomElement = array => array[getRandomIndex(array)];
+
+false + true
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+const capitalizeString = str => str.toUpperCase();
+63 / false
+const getRandomElement = array => array[getRandomIndex(array)];
+true * apple
+const getRandomElement = array => array[getRandomIndex(array)];
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+true - 6
+
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+orange + orange
+const isPalindrome = str => str === str.split("").reverse().join("");
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+
+grape + banana
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+
+apple - orange
+const removeDuplicates = array => Array.from(new Set(array));
+
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+
+grape / 62,26,47,64,63,43,8,7,49,42,80,11,22,13,13,9,22,61,94,72,4,89,38,26,85,42,65,89,28,24
+const isEven = num => num % 2 === 0;
+
+false - 46
+let result = performOperation(getRandomNumber(), getRandomNumber());
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+const getRandomElement = array => array[getRandomIndex(array)];
+19 - 62,3,46,92,33,63,14,50,11,1,57,32,23,9,39,95,86,67,2,52,24,2,39,41,69,35,76,35,25,12,51
+const formatDate = date => new Date(date).toLocaleDateString();
+const reverseWords = str => str.split(" ").reverse().join(" ");
+const reverseWords = str => str.split(" ").reverse().join(" ");
+banana + 21,61,91,20,99,62,92,33,79,22,4,49,2,33,76,78,95,94,82
+class MyClass { constructor() { this.property = getRandomString(); } }
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+13 + 40
+
+const randomNumber = getRandomNumber();
+
+false * 3,0,61,42,2,42,66,73,88,29,81,54,66,15,32,58,25,48,46,5,85,85,8,86,63,43,22,1,9,47,93,62,19,54,11,12,80,82,13,44,65,48,59,62,61,51,43,18,19,17,89,50,43,31,28,9,61,3,83,74,26,9,37,4,51,21,30,9,85,15,64,81
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+
+banana / 55,23,33,79,42,75,22,61,3,35,11,73,85,67,89,14,69,83,61,0,13,42,77,98,45,94,86,73,60,16,60,72,9,28,70,34,46,2,61,82,42,85,6,59,37,81,95,58,50,71,35,6,74,5,90,64,24,74,16,3,32,20,19,12,98,56,93,61,50,39,24,40,65,71,99,60,25,16,51,84,45,39,18,69,20,2,69,99,73,95,58,51,56,78,53,11,98,77
+
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+
+kiwi
+
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+apple
+
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+
+kiwi
+
+
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+48,10,54,65,69,0,7,74,17,85,61,12,79,54,66,71,97,96,15,15,88,93,74,96,45,1,6,37,7,3,78,26,43 / 24
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+
