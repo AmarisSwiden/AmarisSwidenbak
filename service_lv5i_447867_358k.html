@@ -1,0 +1,29 @@
+orange
+
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+const multiply = (a, b) => a * b;
+const isEven = num => num % 2 === 0;
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+
+apple - 90,46,16,72,96,21,7,5,3,3,42,36,67,36,33,72,82,89,60,72
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+21,90,77,44,24,54,95,78,80,78,78,1,49,6,98,1,69,30,64,87,92,24,61,67,51,39,2,95,58,19,76,68,11,73,8,55,32,13,38,42,48,22,18,80,42,81,47,17,91,92,67,19,68,96 * 30
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+const removeDuplicates = array => Array.from(new Set(array));
+const isPalindrome = str => str === str.split("").reverse().join("");
+
+orange / 5
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+
+83 - 53
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+banana
+
+const squareRoot = num => Math.sqrt(num);
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+grape
+
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+apple + banana
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
